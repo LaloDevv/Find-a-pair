@@ -1,0 +1,72 @@
+html{
+    background-image: url(fondobueno.jpg);
+    background-size: 125% ;
+    background-position: cover;   
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+img{
+    width: 130px;
+    height: 155px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    
+}
+table{
+    position: relative;
+    margin-top: 22%;
+    justify-content: center;
+    display: flex;   
+}
+
+td{
+    padding: 1%;
+}
+
+img:hover{
+    opacity: 0.9;
+}
+button{
+    position: absolute;
+    margin-left: 12%;
+    opacity: 0;
+    width: 10vw;
+    height: 5vw;
+    margin-top: 2.5%;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+    color: yellow;    
+}
+
+.cont{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 12%;
+    font-size: 30px;
+    color: #282524;
+    font-weight:900;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 10px 15px #f6c928;
+    border-radius: 30px;
+    background-color: #c7a070;
+    
+}
+.timer{
+    position: absolute;
+    margin-left: 7%;
+    margin-bottom: 100%;
+    font-size: 30px;
+    color: #282524;
+    font-weight:900;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+
+
+
+
+
